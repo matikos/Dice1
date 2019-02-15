@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700');
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-image: url('images/casino.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: top center;
+  }
+
+  .wrapper {
+    height: 400px;
+    width: 600px;
+    border: double 4px yellowgreen;
+    box-shadow: yellowgreen 0px -1px 4px 1px;
+    position: absolute;
+    left: 27%;
+    top: 7%;
+  }
+
+  .dashboard {
+    font-family: 'Roboto Mono', monospace;
+    color:#000000bf;
+    font-size: 15px;
+    text-size-adjust: auto;
+    text-align: center;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+
+  }
+
+  .btn-position #begin {
+    position: absolute;
+    top: 65%;
+    left: 13%;
+
+  }
+
+  .btn-style #begin {
+    width: 150px;
+    height: 65px;
+    border-radius: 50%;
+    box-shadow: yellowgreen 0px 0px 20px 1px;
+    background-color: yellowgreen;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: 600;
+    
+  }
+
+  .btn-style #again {
+    display: none;
+    border-radius: 22%;
+    box-shadow: yellowgreen 0px 0px 20px 2px;
+    background-color: yellowgreen;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .btn-position #again {
+    position: absolute;
+    left: 1%;
+    top: 40%;
+  }
+
+  #dice {
+    position: absolute;
+    top: 36%;
+    left: 64%;
+    height: 146px;
+    width: 146px;
+    border: single 1px;
+    
+  }
+
+
+  #die1 {
+  position: absolute;
+  }
+  #die2 {
+    position: absolute;;
+  }
+  #die3 {
+  position: absolute;
+  }
+  #die4 {
+  position: absolute;
+  }
+  #die5 {
+  position: absolute;
+  }
+  #die6 {
+  position: absolute;
+  }
+
+  #rules {
+  position: absolute;
+  height: 180px;
+  width: 270px;
+  right: 10%;
+  top: 10%;
+  font-size: 16px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  color: #e7e6d3;
+  }

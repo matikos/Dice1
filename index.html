@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Roll with Me!</title>
+</head>
+<body>
+    
+
+<div class="wrapper">
+
+<div id="dice" >
+ <img id="die1" src="images/Die_1.png" style="display: none;">
+
+<img id="die2" src="images/Die_2.png" style="display: none;">
+
+<img id="die3" src="images/Die_3.png" style="display: none;">
+
+<img id="die4" src="images/Die_4.png" style="display: none;">
+
+<img id="die5" src="images/Die_5.png" style="display: none;">
+
+<img id="die6" src="images/Die_6.png" style="display: none;">
+</div>
+<div  class="btn-position btn-style">
+  <button id="begin">START</button>
+  <button id="again">Hit Me Baby One More Time!</button>
+</div>
+<div class="dashboard">
+  <h1 id="player1">PLAYER ONE</h1>
+  
+  <h2 id="score">your score: 0</h2>
+
+</div>
+</div>
+<div id="rules">
+  <p>Dice game Player One <br>
+
+  • Roll the dice to begin the game<br>
+  • The dice appears on the first roll<br>
+  • When a dice is rolled, the score adds up<br>
+  • Once the score passed 20, you win.<br>
+  • However, if you hit ‘1’ then you lose (if less than score of 20)<br>
+  • If the player won or lost, he/she can start the game again
+</p>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
